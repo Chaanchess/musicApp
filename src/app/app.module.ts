@@ -16,6 +16,9 @@ import { NoimagePipe } from './pipes/noimage.pipe';
 import { TarjetasComponent } from './components/tarjetas/tarjetas.component';
 import { LoadingComponent } from './components/shared/loading/loading.component';
 import { DomseguroPipe } from './pipes/domseguro.pipe';
+import { AboutComponent } from './components/about/about.component';
+import { BuscarcancionComponent } from './components/buscarcancion/buscarcancion.component';
+import { CancionesComponent } from './components/canciones/canciones.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +30,10 @@ import { DomseguroPipe } from './pipes/domseguro.pipe';
     NoimagePipe,
     DomseguroPipe,
     TarjetasComponent,
-    LoadingComponent
+    LoadingComponent,
+    AboutComponent,
+    BuscarcancionComponent,
+    CancionesComponent
   ],
   imports: [
     BrowserModule,
